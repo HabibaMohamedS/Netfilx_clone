@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: azure;
+    font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+h1{
+    font-size: 3rem;  
+}
+p{
+    font-size: 1em;
+}
+.paragraph{
+    padding: 5%;
+}
+body{
+    background-color: black;
+}
+.title{
+    z-index: 2;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    
+
+   padding-top: 1.5rem;
+  padding-left: 10%;
+   padding-right: 10%;
+   
+}
+.horizon{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    width: 9.25rem;
+    height: 2.5rem;
+    
+}
+.buttons{
+    width: auto;
+    display: flex;
+    align-items: center;
+    
+}
+.logo svg{
+    fill:rgb(229,9,20);
+}
+.sign{
+    border: none;
+    background-color: rgb(229, 9, 20);    
+    color: white;
+    padding: .5rem;
+    border-radius: .3rem;
+    width: 5rem;
+    height: 2.5rem;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    
+    
+}
+.sign:hover{
+    cursor: pointer;
+    background-color: rgb(205, 20, 29);
+    transition-duration: 250ms;
+    transition-property: background-color, border-color;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+}
+.get-started{
+    width: 9rem;
+    height: 3.5rem;
+    margin-left: 1rem;
+}
+.email{
+    background-color: transparent;
+    width: 23rem;
+    color: white;
+    border: none;
+    padding: 4px;
+}
+#lang{
+    border: none;
+    -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background:transparent
+  url('data:image/svg+xml,<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="default-ltr-cache-4z3qvp e1svuwfo1" data-name="CaretDown" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.5976 6.5C11.7461 6.5 11.8204 6.67956 11.7154 6.78457L8.23574 10.2643C8.10555 10.3945 7.89445 10.3945 7.76425 10.2643L4.28457 6.78457C4.17956 6.67956 4.25393 6.5 4.40244 6.5H11.5976Z" fill="currentColor"></path></svg>');
+    background-repeat: no-repeat;
+    background-position: right 5px top 50%;
+  width: 7rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lang{
+    background-color: rgba(217, 196, 196, 0.5) ;
+    border-radius: .3rem;
+    border: 0 solid transparent;
+    width: 8rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    border-radius: .3rem;
+    margin-right: 1.6rem;
+   
+  
+}
+.lang-icon{
+    fill: aliceblue;
+    width: 1rem;
+}
+.first{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 12%;
+    padding-bottom: 15%;
+}
+.first>{
+    margin-bottom: 1rem;
+}
+.second,.third,.forth,.fifth,.sixth
+{
+    border-top: .6rem;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-color: rgb(57, 70, 70);
+    border-style:solid;
+    padding: 3rem 10rem 2rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+}
+.rectangle{
+    border-radius: 15px;
+    padding: 3%;
+    border: solid rgb(109, 109, 109) 2px;
+    display:flex;
+    justify-content:space-between ;
+    width: 20rem;
+    justify-self: center;
+}
+.st-image{
+    width: 13%;
+
+}
+.Downloading{
+    width: 3rem;
+    background-size: 100%;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif") ;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.second img,.third img,.forth img,.fifth img{
+    width: 100%;
+}
+@media (max-width:900px){
+    .logo svg{
+        fill:rgb(9, 229, 53);
+    }
+}
