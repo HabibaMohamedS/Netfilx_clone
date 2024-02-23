@@ -79,6 +79,7 @@ p{
     /* position:relative;
     z-index: 2; */
     border: none;
+    font-weight: 500;
     background-color: rgb(229, 9, 20);    
     color: white;
     padding: .5rem;
@@ -251,6 +252,93 @@ footer ul li{
 }
 @media (max-width:900px){
     .logo svg{
-        fill:rgb(9, 229, 53);
+        width: 5.5625rem;
+        height: 1.5rem;
     }
+    .horizon{
+        flex-direction: column;
+        justify-content: center;
+    }
+    *{
+        text-align: center;
+    }
+    .h-1{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    p{
+        font-size: 1.125rem;
+    font-weight: 400;
+    }
+    .first,.second,.third,.forth,.fifth,.sixth,footer
+    {
+        padding: 1rem 1.7rem;
+    }
+    .title{
+        padding-left: .7rem;
+        padding-right: .7rem;
+        align-items: start;
+    }
+    .sign{
+        width: auto;
+        height: 1.8rem;
+        border-radius: 1px;
+        text-align: center;
+        font-weight: 500;
+    }
+    .first>*{
+        margin-bottom: 1.6rem;
+    }
+    .email{
+        align-self: center;
+        background-color: rgba(54, 53, 53, 0.5);
+        width: 15rem;
+        height: 2.6rem;
+        color: white;
+        border: 1px solid gray;
+        border-radius: 3px;
+        padding: 4px;
+        margin-bottom:1.3rem ;
+        text-align: start;
+    }
+    .get-started{
+        margin-left: 0;
+        width: 9rem;
+        height: 2.5rem;
+        border-radius: 5px;
+        align-self: center;
+    }
+    .inverted{
+        flex-direction: column-reverse;
+    }
+    .accordion button {
+        height:4rem;
+        font-size:1.2rem ;
+        font-weight: 500;
+        margin-top: 5px;
+    }
+    .background-image::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 40vh;
+        z-index: 0;
+        background: linear-gradient(to bottom,#000,transparent);
+    }
+    .background-image::after{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 40vh;
+        z-index: 0;
+        background: linear-gradient(to top,#000,transparent);
+    
+    }
+    .background-image{
+        background-image: url("./first-small.jpg") ;
+    }    
 }
