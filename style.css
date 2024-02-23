@@ -167,8 +167,26 @@ p{
 .first>*{
     margin-bottom: 2rem;
 }
+/* .tv{
+    object-fit: contain;
+}
+.first-video{
+    z-index: 0;
+    overflow: hidden;
+    width: 70%;
+    height: 100%;
+    max-width: 33%;
+    max-height: 34%;
+    position: absolute;
+    top: 100%;
+    left: 55%;
+    mix-blend-mode: screen;
+} */
 .second h1,.third h1,.forth h1,.fifth h1,.sixth >*{
     margin-bottom: 1.5rem;
+}
+.seventh{
+    justify-content: center;
 }
 .second,.third,.forth,.fifth,.sixth,footer
 {
@@ -341,4 +359,15 @@ footer ul li{
     .background-image{
         background-image: url("./first-small.jpg") ;
     }    
+}
+@media(min-width:1300px){
+    .second,.third,.forth,.fifth,.sixth,footer
+    {
+        padding: 3rem 20rem ;
+    }
+    .title{
+        padding-left: 20rem;
+        padding-right: 20rem;
+    }
+
 }
