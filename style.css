@@ -269,7 +269,7 @@ footer ul li{
     
 }
 @media (max-width:900px){
-    .logo svg{
+    .logo {
         width: 5.5625rem;
         height: 1.5rem;
     }
